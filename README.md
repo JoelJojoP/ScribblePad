@@ -1,3 +1,3 @@
-#ScribblePad (v1.0.0)
+##ScribblePad (v1.0.0)
 
 Scribble your thoughts
