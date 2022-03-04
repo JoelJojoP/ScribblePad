@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Drawing app</title>
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <h1>Scribble</h1>
+            <br><br>
+            <label for="stroke">Color</label>
+            <input id="stroke" name='stroke' type="color">
+            <br><br>
+            <label for="lineWidth">Line Width</label>
+            <input id="lineWidth" name='lineWidth' type="number" value="5">
+            <br><br>
+            <button id="erase">Eraser</button>
+            <br>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="Script.js"></script>
+</body>
+</html>
